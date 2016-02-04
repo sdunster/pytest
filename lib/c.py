@@ -1,5 +1,5 @@
 from __future__ import absolute_import
-from . import a
+import lib.a
 
 def test_c():
-    print(a.test_a)
+    print(lib.a.test_a)
