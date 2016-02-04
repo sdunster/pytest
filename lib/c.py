@@ -1,5 +1,6 @@
 from __future__ import absolute_import
-from . import a
+import importlib
+a = importlib.import_module('..a', __name__)
 
 def test_c():
     print(a.test_a)
